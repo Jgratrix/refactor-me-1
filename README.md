@@ -2,7 +2,7 @@
 Your first refactoring task
 
 # instructions
-Fork the repository then download it. Create a new Netbeans project called "RefactorMe". Paste the .java file you downloaded and overwrite the entire code you start with in the project. Wail for help if you need it. Begin working on the following tasks:
+Fork the repository. Create a new Netbeans project called "RefactorMe". Copy the code below and overwrite the entire code you start with in the project. Wail for help if you need it. Begin working on the following tasks:
 - Fix the get name method to display a name from a variable 
 - Make the calculateSalary method perform the correct calculation and print it out
 - Create more if statements in the calculateSides method for all the shapes listed in the comments
