@@ -4,14 +4,16 @@ import java.util.*;
 public class RefactorMe {
 
     public static void main(String[] args) {
-        getName("Bob");
+        getName();
         calculateSalary(2500, 400);
         calculateSides("circle");
         countLetters();
     }
     
-    public static void getName(String name){
-        System.out.println("Your name is: "+name);
+    public static void getName(){
+        Scanner input = new Scanner(System.in);
+        String word = input.nextLine();
+        System.out.println("Your name is: "+word);
     }
     
     public static void calculateSalary(int income, int tax) {
@@ -39,7 +41,6 @@ public class RefactorMe {
         String word = input.nextLine();
         //String word = 
         System.out.println("You entered: " + word);
-        
         System.out.println("You word is: " + word.length() + " letters long.");
     }
     
